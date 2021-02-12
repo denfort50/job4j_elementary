@@ -1,12 +1,12 @@
 package ru.job4j.condition;
 
 public class Max {
-    public static int max(int left, int right) {
+    public static int max(int l, int r) {
         int result;
-        if (left != right) {
-            result = Math.max(left, right);
+        if (l != r) {
+            result = Math.max(l, r);
         } else {
-            result = left;
+            result = l;
         }
         return result;
     }
