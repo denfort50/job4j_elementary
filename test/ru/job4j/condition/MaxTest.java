@@ -21,7 +21,7 @@ public class MaxTest {
 
     @Test
     public void whenMax2To2Then2() {
-        int result = Max.max(3, 3);
-        assertThat(result, is(3));
+        int result = Max.max(2, 2);
+        assertThat(result, is(2));
     }
 }
